@@ -1,4 +1,4 @@
-## KOB Association Wallet(KOBAW)
+# KOB Association Wallet(KOBAW)
 The KOB Association Wallet is an association/organisational wallet for the city of Kochi. This holds the verifiable credentials about registered entities (organisations) under a particular jurisdiction. And this is a Web Application hosted on the Community Cloud for the City of Kochi.
 
 The term "Wallet" is a data store for the DIDs and related information. For example, a person might have a mobile Agent app on their smart devices, while an Organization might have an enterprise Agent running on a Cloud Server. All Agents have a secure Wallet for storing identity data.
@@ -7,14 +7,14 @@ Every agent is paired with a digital wallet which is a key management system. Th
 
   ![wallet image](https://github.com/mariyachris/KOBAW/blob/master/wallet%20img.JPG)
 
-# Understanding wallet
+## Understanding wallet
 
 * A wallet is a mechanism of convenient control, not an exhaustive repository. 
 * A wallet is portable. 
 * A wallet is worth safeguarding. 
 * Good wallets are organized so we can find things easily. 
 
-# Implementation
+## Implementation
 
 The implementation of wallets guarantees proper encryption and secret-handling. It also provides some query features. Records (items) to be stored in a wallet are referenced by a public handle if they are secrets. This public handle might be a public key in a key pair, for example. Records that are not secrets can be returned directly across the API boundary.
 
@@ -22,7 +22,7 @@ With a technology that provides persistence and query features which could be a 
 
 Searchability in wallets is facilitated with a tagging mechanism. Each item in a wallet can be associated with zero or more tags, where a tag is a key=value pair. Items can be searched based on the tags associated with them, and tag values can be strings or numbers. With a good inventory of tags in a wallet, searching can be robust and efficient.
 
-# Benefits
+## Benefits
 
 * No single point of failure.
 * Interoperability. 
@@ -30,7 +30,7 @@ Searchability in wallets is facilitated with a tagging mechanism. Each item in a
 * Resilient trust infrastructure. 
 * Key recovery. 
 
-# Challenges
+## Challenges
 
 * This includes the difficult challenge of recovery after a device is lost or stolen or a wallet is hacked or corrupted. This is the province of decentralized key management.
 
