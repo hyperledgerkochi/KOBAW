@@ -5,8 +5,7 @@ The term "Wallet" is a data store for the DIDs and related information. For exam
 
 Every agent is paired with a digital wallet which is a key management system. This can be anything from a very simple static file on an embedded device to a highly sophisticated enterprise-grade key server. Regardless of the complexity, the job of a wallet is to safeguard sensitive data: key pairs, zero-knowledge proof blinded secrets, verifiable credentials, and any other cryptographic material needed to establish and maintain technical trust.
 
-@import "https://github.com/mariyachris/KOBAW/blob/master/wallet%20img.JPG"
-![wallet image](https://github.com/mariyachris/KOBAW/blob/master/wallet%20img.JPG)
+                    ![wallet image](https://github.com/mariyachris/KOBAW/blob/master/wallet%20img.JPG)
 
 # Understanding wallet
 
