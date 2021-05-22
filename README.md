@@ -48,7 +48,7 @@ The KOB Association Wallet is an online directory for Associations. It uses DIDs
 ## Workflow of Kochi OrgBook
 <br />
 
-![workflow](context_diagram.jpg "CONTEXT DIAGRAM")<br />
+![workflow](https://github.com/mariyachris/KOBAW/blob/master/context_diagram.jpg "CONTEXT DIAGRAM")<br />
 
 A typical workflow in KOB authorization issuing service is likely to use a workflow for issuing credentials that is similar to the following:
 
@@ -60,7 +60,7 @@ All these authorized associations are stored in the association wallet, and each
 ## Usecase of KOB Association Wallet
 <br />
 
-![Usecase of KOBAW](final-usecase.jpg "USECASE DIAGRAM")
+![Usecase of KOBAW](https://github.com/mariyachris/KOBAW/blob/master/usecase-diagram.jpg "USECASE DIAGRAM")
 
 The KOB Association Wallet is a searchable database. The search is implemented using Solr. KOBAW provides all the services offered by the associations. They are accessed through a service provider. A request to service provider is passed by the approving authority which is the officials from the associations. The main services include :
 
