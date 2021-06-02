@@ -48,7 +48,7 @@ The KOB Association Wallet is an online directory for Associations. It uses DIDs
 ## Workflow of Kochi OrgBook
 <br />
 
-![workflow](docs\img\context_diagram.png "CONTEXT DIAGRAM")<br />
+![workflow](https://github.com/mariyachris/KOBAW/blob/master/docs/img/context_diagram.png "CONTEXT DIAGRAM")<br />
 
 The service defines and publishes any pre-requisite authorizations/credentials an association must have before applying for a credential from the service. For example, an association might need to prove they are a registered entity, have a tax number, and insurance. An association applies for the credential, typing information about the pre-requisites and any other data needed by the service before reviewing the application. Normally, the association would also pay a fee for the application process and/or for the authorization itself. The person submitting the application might also need to prove they have the authority to act on behalf of the applying association. The service validates the application information provided and makes a decision to issue (or not) the authorization to the association. If the authorization is approved, the service provides the association with a document - a permit/ licence/ registration - that they can use to prove to others that the association has that authority. The association might display the authorization on the wall and/or might take it to others to prove it was issued. For example to a bank for use in a business loan application process. 
  
@@ -61,7 +61,7 @@ The KOB Association wallet, KOB Verifiable Credential Register, KOB Verifiable O
 ## Usecase of KOB Association Wallet
 <br />
 
-![Usecase of KOBAW](docs\img\usecase.png "USECASE DIAGRAM")
+![Usecase of KOBAW](https://github.com/mariyachris/KOBAW/blob/master/docs/img/usecase.png "USECASE DIAGRAM")
 
 The KOB Association Wallet is a searchable database. The search is implemented using Solr. KOBAW provides all the services offered by the associations. They are accessed through a service provider. A request to service provider is passed by the approving authority which is the officials from the associations. The main services include :
 
@@ -75,7 +75,7 @@ The KOB Association Wallet is a searchable database. The search is implemented u
 
 ## Sequence Diagram
 
-![Sequence-diagram](docs\img\sequencediagram.png "SEQUENCE DIAGRAM")<br />
+![Sequence-diagram](https://github.com/mariyachris/KOBAW/blob/master/docs/img/sequencediagram.png "SEQUENCE DIAGRAM")<br />
 
 The sequence diagram of KOB Associations wallet explains about the interaction between various projects in the KOB. The request from the user is first moved to the interface. If it is a request for credential then it is moved to the credential issuer. They verify the credentials or they can generate the credential. Then the issued credential is then moved to the interface. All the verifiable credentials are stored in the KOB VCR. Whenever a request from the web application has occurred they show the list of credentials using the Association Wallet.
 
