@@ -1,0 +1,17 @@
+site_name: KOB Association Wallet
+theme:
+  name: 'material'
+nav:
+  - Informational:
+    - 'Overview': 'index.md'
+    - 'Dependent Projects': 'dependent.md'
+    - 'Motivation': 'motivation.md'
+    - 'Solution': 'solution.md'
+    - 'Workflow': 'workflow.md'
+    - 'Use Cases': 'usecase.md'
+    - 'Sequence Diagram' : 'sequence.md'
+    - 'Target Audience': 'target.md'
+    - 'Works completed': 'completed.md'
+    - 'Project Plan': 'plan.md'
+    - 'Contributors Guide': 'contributorsguide.md'
+    
