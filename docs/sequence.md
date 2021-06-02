@@ -1,0 +1,4 @@
+
+![Sequence-diagram](img\sequencediagram.png "SEQUENCE DIAGRAM")<br />
+
+The sequence diagram of KOB Associations wallet explains about the interaction between various projects in the KOB. The request from the user is first moved to the interface. If it is a request for credential then it is moved to the credential issuer. They verify the credentials or they can generate the credential. Then the issued credential is then moved to the interface. All the verifiable credentials are stored in the KOB VCR. Whenever a request from the web application has occurred they show the list of credentials using the Association Wallet.
